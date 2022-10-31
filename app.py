@@ -18,10 +18,10 @@ import pickle
 
 
 
-infosys_model = pickle.load(open('C:/Users/BHANUKIRAN/Desktop/bhanu/infosys_daily_data.sav', 'rb'))
-reliane_model = pickle.load(open('C:/Users/BHANUKIRAN/Desktop/bhanu/reliance_daily_data.sav', 'rb'))
-tatamotors_model = pickle.load(open('C:/Users/BHANUKIRAN/Desktop/bhanu/tatamotors_daily_data.sav', 'rb'))
-wipro_model = pickle.load(open('C:/Users/BHANUKIRAN/Desktop/bhanu/wipro_daily_data.sav', 'rb'))
+infosys_model = pickle.load(open('infosys_daily_data.sav', 'rb'))
+reliane_model = pickle.load(open('reliance_daily_data.sav', 'rb'))
+tatamotors_model = pickle.load(open('tatamotors_daily_data.sav', 'rb'))
+wipro_model = pickle.load(open('wipro_daily_data.sav', 'rb'))
 
 model_dict = {'Infosys': infosys_model,
               'Reliance': reliane_model,
@@ -29,10 +29,10 @@ model_dict = {'Infosys': infosys_model,
               'Wipro': wipro_model}
 
 
-infosys_data = pd.read_csv('C:/Users/BHANUKIRAN/Desktop/bhanu/infosys_daily_data.csv')
-reliane_data = pd.read_csv('C:/Users/BHANUKIRAN/Desktop/bhanu/reliance_daily_data.csv')
-tatamotors_data = pd.read_csv('C:/Users/BHANUKIRAN/Desktop/bhanu/tatamotors_daily_data.csv')
-wipro_data = pd.read_csv('C:/Users/BHANUKIRAN/Desktop/bhanu/wipro_daily_data.csv')
+infosys_data = pd.read_csv('infosys_daily_data.csv')
+reliane_data = pd.read_csv('reliance_daily_data.csv')
+tatamotors_data = pd.read_csv('tatamotors_daily_data.csv')
+wipro_data = pd.read_csv('wipro_daily_data.csv')
 
 
 
