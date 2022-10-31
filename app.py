@@ -63,7 +63,7 @@ data = load_data(data_dict[selected_stock])
 data_load_state.text('Loading data... done!')
 
 st.subheader('Raw data')
-st.write(data.tail())
+st.write(data)
 
 
 # Plot raw data
